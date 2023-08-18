@@ -1,0 +1,194 @@
+.main_body{
+    background: #f4f6f8;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+.container_box{
+    padding: 0 0 0 19px;
+}
+.navbar-brand {
+    height: auto !important;
+    padding: 8px 14px !important;
+    line-height: inherit;
+}
+.navbar-default .navbar-nav>li>a {
+    padding: 9px 16px;
+}
+.navbar {
+    min-height: auto !important;
+}
+.main_body {
+    background: #f4f6f8;
+    border: 1px solid #cccccc73;
+    padding: 20px;
+    margin-bottom: 18px;
+    box-shadow: 1px 11px 23px rgba(154, 154, 154, 0.33);
+}
+.main_body .btn-info ,.btn-info:hover{
+    background: #f7931e;
+    border-color: #f7931e;
+}
+.form-group label {
+    margin-bottom: 6px;
+    font-weight: 500;
+    font-size: 13px;
+}
+.order_list tr th,.order_list tr td{
+    font-size: 11px ;
+    font-weight: 600;
+    color: #000;
+}
+table.dataTable thead>tr>th.sorting_asc, table.dataTable thead>tr>th.sorting_desc, table.dataTable thead>tr>th.sorting, table.dataTable thead>tr>td.sorting_asc, table.dataTable thead>tr>td.sorting_desc, table.dataTable thead>tr>td.sorting {
+    padding-right: 12px !important;
+}
+.order_list .view_invoice a {
+    padding: 4px;
+    font-size: 11px;
+    width: 100%;
+}
+table.dataTable thead .sorting_asc:after,table.dataTable thead .sorting:after{
+    display: none !important;
+}
+.pagination>li>a, .pagination>li>span {
+    font-size: 11px;
+}
+.alert {
+    padding: 3px !important;
+    margin-bottom: 6px !important;
+    font-size: 12px !important;
+}
+.status_code {
+    display: inline-flex;
+    align-items: center;
+    padding: 3px 6px;
+    background-color: #dfe3e8;
+    border: .2rem solid #fff;
+    border-radius: 2rem;
+    line-height: 1.5rem;
+    color: #454f5b;
+    font-size: 11px;
+}
+.main_content{
+
+}
+.main_content .row{
+    margin: 0;
+}
+.sidebar{
+    background: #f7931e;
+    padding: 0 !important;
+    text-align: center;
+}
+.sidebar ul {
+    padding: 0;
+    margin: 0;
+}
+.sidebar ul li {
+    list-style: none;
+    position: relative;
+    display: inline-block;
+}
+.sidebar ul li a {
+    
+    display: inline-block;
+    padding: 13px 31px;
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    margin: 0 !important;
+}
+.sidebar ul li a.active{
+    background: #5c5c5c;
+}
+.sidebar ul li a svg {
+    width: 21px;
+    height: 20px;
+    vertical-align: middle;
+    margin: -4px 6px 0 0;
+}
+.right_contents {
+    margin: 0;
+    padding: 30px 41px 0 38px !important;
+    background: #eef1f6;
+    width: 100% !important;
+}
+.main_head h3 {
+    margin: 0;
+}
+body{
+    margin: 0;
+}
+.navbar-default{
+    display: none;
+}
+.sidebar ul li .active,.sidebar ul li a:hover{
+    background: #5c5c5c;
+}
+.dash_icons {
+    padding: 19px 3px 20px !important;
+}   
+.icon_box {
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #ccccccad;
+    padding: 14px 24px 28px;
+}
+.icon_box h4 {
+    color: #99a0a5;
+}
+.icon_box svg {
+    width: 58px;
+    position: absolute;
+    background: #5c5c5c;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 9px;
+}   
+.icon_box h5 {
+    font-size: 21px;
+    margin: 0 0 6px;
+    color: #5c5c5c;
+}
+.icon_box h5 ,.icon_box b{
+    padding: 0 0 0 81px;
+}
+.icon_box b {
+    font-size: 23px;
+}
+#create_order_main{
+    background: #fff;
+    padding: 11px 11px;
+    border: 1px solid #ccccccb3;
+    border-radius: 4px;
+}
+.btn_process{
+    margin: 6px 0 14px !important;
+    padding: 4px 13px !important;
+}
+.api-order {
+    margin-top: 17px;
+}
+body{
+        background-color:#eef1f6 !important;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: #5c5c5c;
+    border-color: #5c5c5c;
+}
+.btn-info.active.focus, .btn-info.active:focus, .btn-info.active:hover, .btn-info:active.focus, .btn-info:active:focus, .btn-info:active:hover, .open>.dropdown-toggle.btn-info.focus, .open>.dropdown-toggle.btn-info:focus, .open>.dropdown-toggle.btn-info:hover {
+    background-color: #f7931e !important;
+    border-color: #f7931e !important;
+}
+.sidegapp{
+    padding: 0 10px 0 0 !important;
+}
+.integrations_box {
+    padding-top: 16px;
+}
+.integrations_box .main_body{
+    padding-bottom: 159px !important;
+}
+.btn-info {
+    background-color: #f7931e !important;
+    border-color: #f7931e !important;
+}

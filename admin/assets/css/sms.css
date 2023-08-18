@@ -1,0 +1,420 @@
+.searchBox {
+    position: relative;
+    display: inline-block;
+    width: 100%
+}
+.searchBox ul {
+    width: 100%;
+    position: absolute;
+    z-index: 9999;
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+.template_form .send_to label {
+    margin: 5px 5px;
+}
+.send_to_active .active_status label{
+        display: inline-block;
+    margin: 1px 5px;
+    vertical-align: text-bottom;
+}
+.send_btn {
+    text-align: left !important;
+   
+}
+.send_to_active .active_status{
+  direction: rtl;
+}
+.send_to_active {
+    display: flex;
+    padding: 25px 20px !important;
+}
+.template_form .send_to h5 {
+    margin: 0;
+    font-size: 13px;
+    padding: 6px 0;
+}
+.template_form .send_to{
+    display: flex;
+}
+.sale_invoice ul li {
+    padding: 3px 5px;
+}
+.template_form .send_to .admin, .template_form .send_to .shipper, .template_form .send_to .consignee {
+    margin: 0 25px;
+    display: inherit;
+    direction: rtl;
+}
+.template_form .form_box input[type="checkbox"] {
+    height: 15px;
+    width: 15px;
+}
+.sale_invoice h3 i {
+    float: right;
+    vertical-align: middle;
+    margin: 1px 0 0 0;
+    cursor: pointer
+}
+.inner_template {
+    padding: 0 4px 0 10px
+}
+.searchBox ul {
+    overflow-y: scroll;
+    height: 250px;
+    top: 39px;
+    z-index: 100
+}
+.overlay {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 99;
+    display: none
+}
+.left_sidebar_box {
+    width: 20%;
+    margin: 0;
+    background: #fff;
+    box-shadow: -4px 26px 77px -23px #a5a0a0bf;
+    padding: 0;
+    margin-top: 5px;
+    border: 1px solid #c1c1c163;
+    border-radius: 5px
+}
+.left_sidebar_box ul {
+    padding: 0;
+    margin: 0
+}
+.left_sidebar_box ul li {
+    list-style: none;
+    display: inline-block;
+    border-bottom: 1px solid #cccccca1;
+    margin-left: 0;
+    width: 100%
+}
+.left_sidebar_box ul li .active, .left_sidebar_box ul li a:hover, .left_sidebar_box ul li:hover {
+    color: #fff;
+    background-image: linear-gradient(to left, #426394, #6b8ec1)
+}
+.left_sidebar_box ul li a {
+    display: inline-block;
+    width: 100%;
+    padding: 11px 10px;
+    font-size: 13px;
+    color: #000;
+    background: #fff
+}
+.colums_gapp {
+    padding: 0 8px 0 8px
+}
+.outer_shadow {
+    background: #fff;
+    padding: 14px  9px 0 9px !important;
+    border-radius: 4px;
+    box-shadow: -4px 26px 77px -9px #a5a0a08c;
+    margin-top: 6px;
+    border: 1px solid #cccccc96;
+    width: 66%;
+    height: 75%;
+    overflow-y: auto;
+    position: fixed;
+    right: 9px;
+}
+.table_template table.md-table td.md-cell:last-child i {
+    font-size: 17px;
+    padding: 0 2px;
+}
+.form_box {
+    padding: 0 6px
+}
+.form_box label {
+    font-size: 12px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 0;
+    color: #7b7272
+}
+.form_box input, .form_box select, .form_box textarea {
+    width: 100%;
+    height: 32px;
+    border: 1px solid #e4e4e4;
+    margin-bottom: 14px;
+    padding: 0 10px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    margin-top: 6px;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: 0 0 1px 0 #ccc
+}
+.pl-0{
+    padding-left: 0;
+}
+.form_box textarea {
+    padding-top: 6px;
+    height: 73px;
+}
+.send_btn button {
+    background: #426394;
+    color: #fff;
+    border: none;
+    padding: 5px 16px;
+    font-size: 13px;
+    border-radius: 2px
+}
+.send_btn .send_button {
+    background: #03a9f4
+}
+.send_btn {
+    padding: 8px 7px 7px
+}
+.send_btn {
+    text-align: right;
+    padding: 24px 5px 0
+}
+.top_heading h3 {
+    margin: 0 6px 16px 2px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #676a6c
+}
+.left_sidebar_box::-webkit-scrollbar-track, .searchBox ul::-webkit-scrollbar-track {
+    background-color: #f5f5f5
+}
+.left_sidebar_box::-webkit-scrollbar, .outer_shadow::-webkit-scrollbar, .searchBox ul::-webkit-scrollbar {
+    width: 6px;
+    background-color: #f5f5f5
+}
+.left_sidebar_box::-webkit-scrollbar-thumb, .outer_shadow::-webkit-scrollbar-thumb, .searchBox ul::-webkit-scrollbar-thumb {
+    background-color: #ddd
+}
+.searchBox ul {
+    display: none
+}
+.left_sidebar_box {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 75%;
+    position: fixed;
+    width: 16%;
+    padding: 0!important
+}
+.sale_invoice h3 {
+    background: #8fc1e8;
+    font-size: 11px;
+    padding: 6px 7px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 0 4px
+}
+.sale_invoice ul {
+    padding: 0;
+    background: #fff;
+    box-shadow: -4px 26px 77px -31px #a5a0a08c;
+    overflow-y: auto;
+    height: 340px;
+    border: 1px solid #e4e4e4bf;
+    margin: 0 0 7px;
+    height: AUTO;
+}
+.key_box, .parameters_box, .payment_box {
+    display: none
+}
+.sale_invoice ul li {
+    list-style: none;
+    border-bottom: 1px solid #e4e4e4bf
+}
+.sale_invoice ul li a {
+    padding: 5px 8px;
+    display: inline-block;
+    width: 100%;
+    font-size: 12px;
+    color: #828080
+}
+.sale_invoice ul::-webkit-scrollbar-track {
+    background-color: #f5f5f5
+}
+.sale_invoice ul::-webkit-scrollbar {
+    width: 4px;
+    background-color: #f5f5f5
+}
+.sale_invoice ul::-webkit-scrollbar-thumb {
+    background-color: #ddd
+}
+.parametres_box {
+    padding: 0 4px 0 9px
+}
+.send_btn .trash_button {
+    background: #de372b
+}
+.outer_shadow .table_responsive {
+    border-collapse: collapse;
+    width: 100%
+}
+.outer_shadow .table_responsive td, .table_responsive th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px
+}
+.outer_shadow .table_responsive tr:nth-child(2n) {
+    background-color: rgba(221, 221, 221, .5)
+}
+.action_btns, .outer_shadow table tr th:last-child {
+    text-align: left
+}
+.table_template table.md-table {
+    width: 100%;
+    border-spacing: 0;
+    overflow: hidden
+}
+.table_template table.md-table th.md-column {
+    color: rgba(0, 0, 0, .54);
+    font-size: 12px;
+    font-weight: 700;
+    white-space: nowrap
+}
+.table_template table.md-table td.md-cell button {
+    width: 100%;
+    padding: 0 2px;
+    margin: 2px 0;
+    font-size: 11px;
+}
+.table_template table.md-table td.md-cell {
+    color: rgba(0, 0, 0, .87);
+    font-size: 13px;
+    border-top: 1px rgba(0, 0, 0, .12) solid
+}
+.table_template table.md-table td.md-cell {
+    font-size: 11px
+}
+.table_template table.md-table:not(.md-row-select) td.md-cell:nth-child(n+2):nth-last-child(n+2), table.md-table:not(.md-row-select) th.md-column:nth-child(n+2):nth-last-child(n+2) {
+    padding: 0 56px 0 0
+}
+.table_template md-icon svg {
+    height: 12px;
+    width: 12px;
+    margin-top: 0!important;
+    vertical-align: text-bottom;
+    margin-top: 1px
+}
+.table_template table.md-table td.md-cell {
+    font-size: 11px!important;
+    padding: 12px !important;
+}
+.table_template md-table-container thead input {
+    width: 100%;
+    height: 23px;
+    border: 1px solid #e4e4e4;
+    margin-bottom: 14px;
+    padding: 0 10px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    margin-top: 6px;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: 0 0 1px 0 #ccc;
+    margin: 2px 0;
+}
+#sms_table .btn-xs,#sms_table .btn-group-xs > .btn {
+    width: 100%;
+    margin: 2px 0;
+}
+#sms_table.dataTable thead .sorting:after,#sms_table.dataTable thead .sorting_asc:after{
+    display: none;
+}
+#sms_table tr th, #sms_table tr td {
+    padding: 5px;
+}
+#sms_table .approved_status{
+    background: #7ec34f;
+}
+#sms_table .pedding_status{
+    background: #d9534f;
+}
+#sms_table .approved_status,#sms_table .pedding_status{
+    width: 100%;
+    padding: 5px 3px;
+    display: inline-block;
+}
+
+
+@media (max-width:1250px) {
+    .left_sidebar_box {
+        width: 19%
+    }
+    .left_sidebar_box, .outer_shadow {
+        position: fixed
+    }
+    .outer_shadow {
+        overflow-y: auto;
+        overflow-x: hidden;
+        height: 75%
+    }
+    .outer_shadow {
+        padding: 14px 9px 35px 9px
+    }
+    .outer_shadow {
+        width: 59%!important
+    }
+    .send_btn button {
+        padding: 5px 8px;
+        font-size: 11px
+    }
+}
+@media (max-width:1024px) {
+    .outer_shadow {
+        width: 74%!important
+    }
+    .left_sidebar_box {
+        width: 23%
+    }
+    .form_box label {
+        font-size: 10px
+    }
+}
+@media (max-width:767px) {
+    .inner_template, .parametres_box {
+        padding: 8px 0
+    }
+    .send_btn button {
+        padding: 5px 16px;
+        font-size: 13px
+    }
+    .form_box textarea {
+        height: 118px
+    }
+    .form_box label {
+        font-size: 12px
+    }
+    .outer_shadow .col-sm-8 {
+        padding: 0 0 11px
+    }
+    .send_btn {
+        text-align: center;
+        padding: 0
+    }
+    .left_sidebar_box, .outer_shadow {
+        height: 100%!important;
+        position: static
+    }
+    .outer_shadow {
+        width: 100%!important;
+        padding-bottom: 20px
+    }
+    .left_sidebar_box {
+        width: 100%
+    }
+    .left_sidebar_box {
+        margin: 0 0 22px
+    }
+    .left_sidebar_box ul li {
+        width: 49%;
+        text-align: center
+    }
+}

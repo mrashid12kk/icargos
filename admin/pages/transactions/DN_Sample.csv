@@ -1,0 +1,5 @@
+ledgerCode,dr_cr,amount,cheque_no,cheque_date,narration
+01-03-03-01-L,cr,200,chk23,07/03/2023,some text
+03-02-01-01-L,dr,200,chk24,08/03/2023,some text2
+01-03-02-L,dr,200,chk24,06/03/2023,some text2 test
+01-03-02-L,cr,200,chk24,09/03/2023,some text2 wolrd

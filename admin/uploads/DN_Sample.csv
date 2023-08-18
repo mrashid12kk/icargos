@@ -1,0 +1,3 @@
+ledgerCode,ledger_name,dr_cr,amount,cheque_no,cheque_date,narration
+101,ali,cr,222,chk23,07/03/2023,some text
+103,ahmad,dr,444,chk24,08/03/2023,some text2

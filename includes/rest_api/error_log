@@ -1,0 +1,58 @@
+[09-Mar-2017 09:04:34 UTC] PHP Warning:  require(/home/maabitvision/public_html/rest_api/twilio/Twilio/Rest/Client.php): failed to open stream: No such file or directory in /home/maabitvision/public_html/rest_api/twilio/Twilio/autoload.php on line 140
+[09-Mar-2017 09:04:34 UTC] PHP Fatal error:  require(): Failed opening required '/home/maabitvision/public_html/rest_api/twilio/Twilio/Rest/Client.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/maabitvision/public_html/rest_api/twilio/Twilio/autoload.php on line 140
+[09-Mar-2017 10:39:40 UTC] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 404] Unable to create record: The requested resource /2010-04-01/Accounts/t.elguennuni@gmail.com/Messages.json was not found' in /home/maabitvision/public_html/rest_api/twilio/Twilio/Version.php:85
+Stack trace:
+#0 /home/maabitvision/public_html/rest_api/twilio/Twilio/Version.php(207): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/maabitvision/public_html/rest_api/twilio/Twilio/Rest/Api/V2010/Account/MessageList.php(64): Twilio\Version->create('POST', '/Accounts/t.elg...', Array, Array)
+#2 /home/maabitvision/public_html/rest_api/twilio/index.php(13): Twilio\Rest\Api\V2010\Account\MessageList->create('61468639194', Array)
+#3 {main}
+  thrown in /home/maabitvision/public_html/rest_api/twilio/Twilio/Version.php on line 85
+[09-Mar-2017 10:42:13 UTC] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 404] Unable to create record: The requested resource /2010-04-01/Accounts/t.elguennuni@gmail.com/Messages.json was not found' in /home/maabitvision/public_html/rest_api/Twilio/Version.php:85
+Stack trace:
+#0 /home/maabitvision/public_html/rest_api/Twilio/Version.php(207): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/maabitvision/public_html/rest_api/Twilio/Rest/Api/V2010/Account/MessageList.php(64): Twilio\Version->create('POST', '/Accounts/t.elg...', Array, Array)
+#2 /home/maabitvision/public_html/rest_api/index.php(13): Twilio\Rest\Api\V2010\Account\MessageList->create('+61468639194', Array)
+#3 {main}
+  thrown in /home/maabitvision/public_html/rest_api/Twilio/Version.php on line 85
+[09-Mar-2017 10:42:18 UTC] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 404] Unable to create record: The requested resource /2010-04-01/Accounts/t.elguennuni@gmail.com/Messages.json was not found' in /home/maabitvision/public_html/rest_api/Twilio/Version.php:85
+Stack trace:
+#0 /home/maabitvision/public_html/rest_api/Twilio/Version.php(207): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/maabitvision/public_html/rest_api/Twilio/Rest/Api/V2010/Account/MessageList.php(64): Twilio\Version->create('POST', '/Accounts/t.elg...', Array, Array)
+#2 /home/maabitvision/public_html/rest_api/index.php(13): Twilio\Rest\Api\V2010\Account\MessageList->create('+61468639194', Array)
+#3 {main}
+  thrown in /home/maabitvision/public_html/rest_api/Twilio/Version.php on line 85
+[09-Mar-2017 10:44:18 UTC] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: The From phone number +61468639197 is not a valid, SMS-capable inbound phone number or short code for your account.' in /home/maabitvision/public_html/rest_api/Twilio/Version.php:85
+Stack trace:
+#0 /home/maabitvision/public_html/rest_api/Twilio/Version.php(207): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/maabitvision/public_html/rest_api/Twilio/Rest/Api/V2010/Account/MessageList.php(64): Twilio\Version->create('POST', '/Accounts/ACc45...', Array, Array)
+#2 /home/maabitvision/public_html/rest_api/index.php(13): Twilio\Rest\Api\V2010\Account\MessageList->create('+61468639194', Array)
+#3 {main}
+  thrown in /home/maabitvision/public_html/rest_api/Twilio/Version.php on line 85
+[09-Mar-2017 10:45:19 UTC] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: Permission to send an SMS has not been enabled for the region indicated by the 'To' number: +61468639194.' in /home/maabitvision/public_html/rest_api/Twilio/Version.php:85
+Stack trace:
+#0 /home/maabitvision/public_html/rest_api/Twilio/Version.php(207): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/maabitvision/public_html/rest_api/Twilio/Rest/Api/V2010/Account/MessageList.php(64): Twilio\Version->create('POST', '/Accounts/ACc45...', Array, Array)
+#2 /home/maabitvision/public_html/rest_api/index.php(13): Twilio\Rest\Api\V2010\Account\MessageList->create('+61468639194', Array)
+#3 {main}
+  thrown in /home/maabitvision/public_html/rest_api/Twilio/Version.php on line 85
+[09-Mar-2017 10:46:30 UTC] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: Permission to send an SMS has not been enabled for the region indicated by the 'To' number: +61468639194.' in /home/maabitvision/public_html/rest_api/Twilio/Version.php:85
+Stack trace:
+#0 /home/maabitvision/public_html/rest_api/Twilio/Version.php(207): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/maabitvision/public_html/rest_api/Twilio/Rest/Api/V2010/Account/MessageList.php(64): Twilio\Version->create('POST', '/Accounts/ACc45...', Array, Array)
+#2 /home/maabitvision/public_html/rest_api/index.php(13): Twilio\Rest\Api\V2010\Account\MessageList->create('+61468639194', Array)
+#3 {main}
+  thrown in /home/maabitvision/public_html/rest_api/Twilio/Version.php on line 85
+[09-Mar-2017 10:47:49 UTC] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: Permission to send an SMS has not been enabled for the region indicated by the 'To' number: +61468639194.' in /home/maabitvision/public_html/rest_api/Twilio/Version.php:85
+Stack trace:
+#0 /home/maabitvision/public_html/rest_api/Twilio/Version.php(207): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/maabitvision/public_html/rest_api/Twilio/Rest/Api/V2010/Account/MessageList.php(64): Twilio\Version->create('POST', '/Accounts/ACc45...', Array, Array)
+#2 /home/maabitvision/public_html/rest_api/index.php(13): Twilio\Rest\Api\V2010\Account\MessageList->create('+6 146-863-9194', Array)
+#3 {main}
+  thrown in /home/maabitvision/public_html/rest_api/Twilio/Version.php on line 85
+[09-Mar-2017 10:49:13 UTC] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: Permission to send an SMS has not been enabled for the region indicated by the 'To' number: +61468639194.' in /home/maabitvision/public_html/rest_api/Twilio/Version.php:85
+Stack trace:
+#0 /home/maabitvision/public_html/rest_api/Twilio/Version.php(207): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/maabitvision/public_html/rest_api/Twilio/Rest/Api/V2010/Account/MessageList.php(64): Twilio\Version->create('POST', '/Accounts/ACc45...', Array, Array)
+#2 /home/maabitvision/public_html/rest_api/index.php(13): Twilio\Rest\Api\V2010\Account\MessageList->create('+6 146-863-9194', Array)
+#3 {main}
+  thrown in /home/maabitvision/public_html/rest_api/Twilio/Version.php on line 85

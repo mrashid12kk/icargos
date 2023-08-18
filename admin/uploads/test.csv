@@ -1,0 +1,26 @@
+<table border="1">
+	 					<tr>
+	 						<th>Id</th>
+	 						<th>File Name</th>
+	 						<th>File Type</th>
+	 						<th>File Size</th>
+	 						<th>Date</th>
+	 					</tr><tr>
+	 						<td>1</td>
+	 						<td>lap3.jpeg</td>
+	 						<td>image/jpeg</td>
+	 						<td>9.78</td>
+	 						<td>2023-02-07 11:19:15</td>
+	 					</tr><tr>
+	 						<td>2</td>
+	 						<td>lap3.jpeg</td>
+	 						<td>image/jpeg</td>
+	 						<td>9.78</td>
+	 						<td>2023-02-07 11:19:54</td>
+	 					</tr><tr>
+	 						<td>3</td>
+	 						<td>Spreadsheet-Assignment.pdf</td>
+	 						<td>application/pdf</td>
+	 						<td>319.44</td>
+	 						<td>2023-02-07 11:20:52</td>
+	 					</tr></table>
